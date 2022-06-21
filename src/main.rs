@@ -16,6 +16,7 @@ fn main() {
 	data.read_fasta_info( &( opts.input ) );
 	data.check_fasta_info();
 
+	/* Colorize the input sequences. */
 	let mut result = colorize::Colorize::new();
 	result.colorize(
 		&( data.seq_list ),
@@ -23,7 +24,7 @@ fn main() {
 		&( opts.seq_type )
 	);
 
-	//println!( "{}", result.colorized_seq[ 0 ] );
+	/* Show result. */
 	result::show_result( &( result.colorized_seq ), &( data.title_list ) );
 
 }
