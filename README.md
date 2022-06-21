@@ -24,6 +24,8 @@ Available options :
 
 ## Output 
 
+Colorized sequences are displayed on your Terminal. 
+
 [e.g.] 
 
 ![Readme Img 1](./img/readme_image_1.png) 
