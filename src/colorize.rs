@@ -95,13 +95,3 @@ fn colorize_aa( seq_list    : &Vec<String>, window_size : usize, ) -> Vec<String
 
 	add_esc_seq
 }
-
-//'A' | 'V' | 'L' | 'I' | 'M' | 'C' => print!( "{}", YELLOW.to_string()     + &( *symbol ).to_string() + RESET ), // .on_yellow().black() 
-//'F' | 'W' | 'Y' | 'H'             => print!( "{}", CYAN.to_string()       + &( *symbol ).to_string() + RESET ), // .on_cyan().black()   
-//'S' | 'T' | 'N' | 'Q'             => print!( "{}", GREEN.to_string()      + &( *symbol ).to_string() + RESET ), // .on_green().black()  
-//'K' | 'R'                         => print!( "{}", BLUE.to_string()       + &( *symbol ).to_string() + RESET ), // .on_blue().black()   
-//'D' | 'E'                         => print!( "{}", RED.to_string()        + &( *symbol ).to_string() + RESET ), // .on_red().black()    
-//'G' | 'P'                         => print!( "{}", MAGENTA.to_string()    + &( *symbol ).to_string() + RESET ), // .on_magenta().black()
-//'B' | 'Z' | 'J' | 'O'             => print!( "{}", "\x1b[93m".to_string() + &( *symbol ).to_string() + RESET ), // .yellow()            
-//'X'                               => print!( "{}", "\x1b[91m".to_string() + &( *symbol ).to_string() + RESET ), // .red()               
-//_                                 => print!( "{}",                           ( *symbol ).to_string()         ),
