@@ -12,6 +12,8 @@ You can compile this program by using `Cargo`. 🦀📦
 % cargo build --release
 ``` 
 
+Then, the object file is generated in `./target/release/` directory.
+
 ## Usage 
 
 Available options : 
@@ -21,6 +23,12 @@ Available options :
 * `-s` : Input sequence type, ( `dna` or `aa`, default `dna` ). 
 * `-t` : Tolerate non-standard symbols (such as -, N, B, Z and X) in input file ( `yes` or `no`, default `yes` ). 
 * `-h` : Print this help, ignore all other arguments. 
+
+[e.g] 
+
+```
+% ./colorize-seq -i input.fasta -w 80 -s aa 
+``` 
 
 ## Output 
 
