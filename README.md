@@ -36,8 +36,8 @@ Colorized sequences are displayed on your Terminal.
 
 [e.g.] 
 
-![Readme Img 1](./img/readme_image_1.png) 
+![Readme Img 1](./img/readme_image_1.jpg) 
 
-![Readme Img 2](./img/readme_image_2.png) 
+![Readme Img 2](./img/readme_image_2.jpg) 
 
 Enjoy. 
